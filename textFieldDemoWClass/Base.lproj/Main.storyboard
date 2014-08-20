@@ -44,18 +44,32 @@
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="k1S-uY-1ac"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCk-1N-KIM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="453" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="photoButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kp6-W6-qFO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="FPq-8t-KcO"/>
                                 <exclude reference="ulg-O4-I5f"/>
+                                <exclude reference="FCk-1N-KIM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="FPq-8t-KcO"/>
                                 <include reference="ulg-O4-I5f"/>
+                                <include reference="FCk-1N-KIM"/>
                             </mask>
                         </variation>
                     </view>
