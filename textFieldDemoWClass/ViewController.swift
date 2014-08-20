@@ -22,8 +22,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+        super.viewDidLoad()    }
 
     
     
